@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CemabasaFase07.kml</name>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>63ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900b3ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>63ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900b3ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>CemabasaFase07</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<extrude>1</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-6.094908739034387,36.42043859259132,12 -6.095049916617032,36.42057079878572,12 -6.095125276971988,36.42067993836541,12 -6.095287536987581,36.42063143646093,12 -6.095449591439429,36.42059956103793,12 -6.095675328410115,36.42056381877224,12 -6.095635557122552,36.42047140574795,12 -6.095539506309948,36.42030000376965,12 -6.095483850413367,36.42015112123622,12 -6.095499772540664,36.42004012992248,12 -6.095580890277461,36.41988387542804,12 -6.095667401785469,36.41975947425454,12 -6.095592050224957,36.41964993561336,12 -6.095528535966905,36.41959079976262,12 -6.095479624653555,36.41956341880459,12 -6.095380477881662,36.41954559463066,12 -6.095370743518487,36.41958598760817,12 -6.095309374263539,36.41961575079894,12 -6.095257444004476,36.41961979621127,12 -6.094884708923416,36.42012981000907,12 -6.094867919271607,36.42012616594437,12 -6.094776225948823,36.42026662555635,12 -6.094777908935923,36.42028368987631,12 -6.094744044055583,36.42033479302258,12 -6.094908739034387,36.42043859259132,12 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

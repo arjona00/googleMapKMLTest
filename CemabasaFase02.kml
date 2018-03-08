@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CemabasaFase02.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>CemabasaFase02</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-6.093989751158989,36.41934234542631,0 -6.093884387910783,36.41933183604868,0 -6.09378786876139,36.41933859612944,0 -6.09366435577686,36.41936192261557,0 -6.093451249013594,36.41943315132464,0 -6.093275546799067,36.41953492785946,0 -6.093055151782149,36.41970867182483,0 -6.092942092320847,36.41987571587131,0 -6.092929340892273,36.42007906625749,0 -6.092968600213128,36.42023826444754,0 -6.093068108424129,36.42038210895903,0 -6.09317947273782,36.42048257978249,0 -6.093334225820128,36.4205594147037,0 -6.093457025924543,36.42047547839538,0 -6.093562313844227,36.42040183963147,0 -6.093678367550242,36.42033081407839,0 -6.09385950256378,36.42026648576313,0 -6.094102308543472,36.42021429114147,0 -6.093989751158989,36.41934234542631,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>CemabasaFase06.kml</name>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>63ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900b3ff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>63ffffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>9900b3ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>CemabasaFase06</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<Polygon>
+			<extrude>1</extrude>
+			<tessellate>1</tessellate>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-6.094083340486487,36.41921635562365,12 z-6.094170806985551,36.41922890113796,12 -6.094181435092326,36.41921315444478,12 -6.094404572879522,36.41924316506984,12 -6.094639436491751,36.41928606021337,12 -6.094718710395263,36.41905012126372,12 -6.094796974534702,36.41906201708662,12 -6.094777099297026,36.41900571400547,12 -6.094839923504263,36.41879247089711,12 -6.094291110648253,36.41868582872796,12 -6.09425276742013,36.41861919296159,12 -6.094198597957764,36.41827931924779,12 -6.094138170864975,36.41828260358708,12 -6.094113013007187,36.41818924904341,12 -6.093961325872525,36.41815714659916,12 -6.093937358718533,36.41817493074395,12 -6.093909573073538,36.41819313853667,12 -6.094028918231745,36.4191835561382,12 -6.094083340486487,36.41921635562365,12 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
